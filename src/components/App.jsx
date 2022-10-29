@@ -18,7 +18,7 @@ export class App extends Component {
 
   addContact = ({ name, number }) => {
     const contact = {
-      id: nanoid.generate(),
+      id: nanoid(),
       name,
       number,
     };
