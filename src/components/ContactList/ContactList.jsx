@@ -11,7 +11,8 @@ export function ContactList ({contacts, onDeleteContact}) {
           <button
             type="button"
             onClick={() => onDeleteContact(id)}
-          />
+            value="delete"
+          >Delete contact</button>
         </li>
       ))}
     </ul>
